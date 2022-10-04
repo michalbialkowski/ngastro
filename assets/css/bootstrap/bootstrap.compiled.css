@@ -24885,6 +24885,36 @@ body.compensate-for-scrollbar {
   background: #03d6d0;
   z-index: 5;
 }
+#slider__main #slider__main__content .flickity-viewport {
+  overflow: hidden;
+}
+#slider__main #slider__main__content .flickity-prev-next-button {
+  color: white;
+  background: transparent;
+  border-radius: 0;
+  width: 45px;
+  height: 45px;
+}
+#slider__main #slider__main__content .flickity-prev-next-button.previous {
+  left: -45px;
+}
+#slider__main #slider__main__content .flickity-prev-next-button.next {
+  right: -45px;
+}
+#slider__main #slider__main__content .flickity-page-dots {
+  bottom: 18px;
+}
+#slider__main #slider__main__content .flickity-page-dots .dot {
+  border-radius: 0;
+  width: 24px;
+  height: 6px;
+  background: #163d61;
+  opacity: 1;
+  margin: 0 4px;
+}
+#slider__main #slider__main__content .flickity-page-dots .dot.is-selected {
+  background: #03d6d0;
+}
 
 #section__slogan {
   overflow: hidden;
